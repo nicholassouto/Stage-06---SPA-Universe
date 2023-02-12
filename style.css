@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  font-family: "Roboto", sans-serif;
+
+  background-image: url(./assets/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+.navigation {
+  display: grid;
+  margin-left: 7.2rem;
+  gap: 3.2rem;
+  margin-top: 4.5rem;
+  margin-left: 15.2rem;
+}
+
+#logo-icon {
+  position: absolute;
+  top: 4rem;
+  left: 7.2rem;
+}
+
+#home,
+#universe,
+#exploration {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+#home,
+#universe {
+  margin-right: 3.2rem;
+}
+
+.spa-page {
+  color: white;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.home-data {
+  display: grid;
+  margin: 13rem 40vw auto auto;
+}
+
+.home-data h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.home-data button {
+  width: 19.5rem;
+  height: 4.8rem;
+  margin-top: 2.4rem;
+  margin-left: 10.5rem;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  color: white;
+  background-color: transparent;
+
+  border: 0.2rem solid #ffffff;
+  border-radius: 0.5rem;
+}
+
+.uni-exp-data {
+  display: grid;
+  margin: 8rem 40vw auto auto;
+}
+
+.uni-exp-data h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.uni-exp-data p {
+  margin-top: 1.6rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.ixi {
+  color: white;
+}
