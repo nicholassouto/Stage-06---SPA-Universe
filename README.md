@@ -1,7 +1,7 @@
 
 # Universe
 
-Pagina dedica ao universo.
+Pagina dedicada ao universo.
 
 Explore o universe enquanto teste o nodelo de single page aplication.
 
